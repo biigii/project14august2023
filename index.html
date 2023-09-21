@@ -4,30 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./assets/css/styles.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js" defer></script>
 </head>
 <body>
-  <main>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-  </main>
-  <!-- <figure>
-    <img src="https://picsum.photos/id/11/300" alt="">
-    <img src="https://picsum.photos/id/12/300" alt="">
-    <img src="https://picsum.photos/id/13/300" alt="">
-    <img src="https://picsum.photos/id/14/300" alt="">
-    <img src="https://picsum.photos/id/15/300" alt="">
-    <img src="https://picsum.photos/id/16/300" alt="">
-    <img src="https://picsum.photos/id/17/300" alt="">
-    <img src="https://picsum.photos/id/18/300" alt="">
-    <img src="https://picsum.photos/id/19/300" alt="">
-  </figure> -->
+  <h1 data-something>hello javascript</h1>
+  <button data-btn onclick="updatePhoto()">click</button>
+  <img src="http://picsum.photos/id/1060/300" alt="" data-photo>
+  <hr>
+  <input type="text" data-input >
+  <button onclick="getInputValue()">submit</button>
+  <hr>
+  <input type="text" data-text>
+  <input type="submit" onclick="addItemToMyList()">
+  <ul data-ul></ul>
+  <button onclick="addImageToPage()">add image to page</button>
+  <input type="text" data-what-image>
+  <figure data-figure></figure>
 </body>
 </html>
